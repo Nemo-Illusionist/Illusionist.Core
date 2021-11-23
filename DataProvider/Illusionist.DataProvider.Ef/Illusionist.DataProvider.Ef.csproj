@@ -14,6 +14,7 @@
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <RepositoryUrl>https://github.com/Nemo-Illusionist/Illusionist.DataProvider</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <GenerateDocumentationFile Condition="'$(Configuration)'=='Release'">true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
