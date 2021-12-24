@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illusionist.DataProvider", "DataProvider\Illusionist.DataProvider\Illusionist.DataProvider.csproj", "{9EEEFBC8-35A5-419A-9245-BE6A65E19235}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illusionist.DataProvider", "src\Illusionist.DataProvider\Illusionist.DataProvider.csproj", "{9EEEFBC8-35A5-419A-9245-BE6A65E19235}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illusionist.DataProvider.Ef", "DataProvider\Illusionist.DataProvider.Ef\Illusionist.DataProvider.Ef.csproj", "{BA1C84B7-580F-454D-AE48-6F306D1ABFE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illusionist.DataProvider.Ef", "src\Illusionist.DataProvider.Ef\Illusionist.DataProvider.Ef.csproj", "{BA1C84B7-580F-454D-AE48-6F306D1ABFE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illusionist.DataProvider.Postgres", "DataProvider\Illusionist.DataProvider.Postgres\Illusionist.DataProvider.Postgres.csproj", "{DC79DF0B-F4DA-4721-AE88-4AF85EC34D10}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illusionist.DataProvider.Postgres", "src\Illusionist.DataProvider.Postgres\Illusionist.DataProvider.Postgres.csproj", "{DC79DF0B-F4DA-4721-AE88-4AF85EC34D10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illusionist.DataProvider.Tests", "DataProvider\Illusionist.DataProvider.Tests\Illusionist.DataProvider.Tests.csproj", "{15BE45DA-EADD-427D-B64E-66F3112BE443}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illusionist.DataProvider.Tests", "src\Illusionist.DataProvider.Tests\Illusionist.DataProvider.Tests.csproj", "{15BE45DA-EADD-427D-B64E-66F3112BE443}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
