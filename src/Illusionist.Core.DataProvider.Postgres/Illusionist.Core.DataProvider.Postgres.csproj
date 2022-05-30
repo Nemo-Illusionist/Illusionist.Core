@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>default</LangVersion>
+    <Nullable>enable</Nullable>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <PackageProjectUrl>https://github.com/Nemo-Illusionist/Illusionist.DataProvider</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Nemo-Illusionist/Illusionist.DataProvider/blob/main/LICENSE</PackageLicenseUrl>
+    <AnalysisLevel>none</AnalysisLevel>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <RepositoryUrl>https://github.com/Nemo-Illusionist/Illusionist.DataProvider</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GenerateDocumentationFile Condition="'$(Configuration)'=='Release'">true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Illusionist.Core.DataProvider\Illusionist.Core.DataProvider.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
